@@ -1,0 +1,18 @@
+// TODO ACTION TYPES
+export const ADD_TODO = "ADD_TODO";
+export const REMOVE_TODO = "REMOVE_TODO";
+export const EDIT_TODO = "EDIT_TODO";
+export const TOGGLE_TODO = "TOGGLE_TODO";
+export const SET_VISIBILITY_FILTER = "SET_VISIBILITY_FILTER";
+
+/// ASYNC ACTION TYPES (API call)
+
+export const FETCH_TODO_REQUEST = "FETCH_TODO_REQUEST";
+export const FETCH_TODO_SUCCESS = "FETCH_TODO_SUCCESS";
+export const FETCH_TODO_ERROR = "FETCH_TODO_ERROR";
+
+/// Counter Action
+export const INCREMENT = "INCREMENT";
+export const DECREMENT = "DECREMENT";
+export const INCREMENT_ASYNC = "INCREMENT_ASYNC";
+export const DECREMENT_ASYNC = "DECREMENT_ASYNC";
